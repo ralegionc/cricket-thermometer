@@ -1,0 +1,67 @@
+clockwork filter: dropped 862 of 7258 detections ({'Bon Bon Station Wet A': 3, 'Boyagin Nature Reserve Dry B': 3, 'Minjerribah Dry B': 11, 'Orpheus Island Wet B': 62, 'Wambiana Cattle Station Dry A': 783})
+2422 clips, 6396 detections, 135 units at 9 sites
+{
+  "n_clips": 2422,
+  "n_sites": 12,
+  "n_detections": 6396,
+  "n_units": 135,
+  "within_night": {
+    "n_pairs": 2423,
+    "n_nights": 143,
+    "n_units": 135,
+    "beta_temp_only": 0.011704418694136923,
+    "ci_temp_only": [
+      0.007005384248424557,
+      0.017032664615208803
+    ],
+    "beta_temp": 0.008740705271664746,
+    "ci_temp": [
+      0.00549618451900432,
+      0.012725539866053515
+    ],
+    "beta_hours": -0.007589828886528858,
+    "corr_dtemp_dhours": -0.11052884184600668
+  },
+  "across_season": {
+    "beta_pooled": 0.01875449767188271,
+    "ci_pooled": [
+      0.015366146806724545,
+      0.023052770196513264
+    ],
+    "q10_pooled": 1.2062845029198128,
+    "n_units_fit": 129,
+    "frac_units_positive": 0.9224806201550387,
+    "median_unit_beta": 0.023901269693585483
+  },
+  "thermometer": {
+    "n_clips_with_audio_estimate": 479,
+    "frac_clips_with_estimate": 0.1977704376548307,
+    "mae_climatology": 2.0952121168820748,
+    "mae_presence_only": 2.1007656355128432,
+    "mae_audio": 1.5294555659973665,
+    "mae_blend": 1.4300447176458218,
+    "blend_weight_audio": 0.6873192598391782,
+    "frac_audio_within_1c": 0.4551148225469729,
+    "corr_audio_anomaly": 0.7105943876112958
+  }
+}
+                                        clips  mae_audio  mae_clim
+name                                                              
+Bon Bon Station Wet A                      88       2.24      3.55
+Boyagin Nature Reserve Dry B               48       0.97      2.53
+Carnarvon Station Reserve Dry B            35       1.31      1.32
+Minjerribah Dry B                          68       0.85      1.45
+Orpheus Island Wet B                       58       0.94      0.86
+Staaten River National Park West Wet B     42       2.29      1.95
+Sturt National Park Dry A                  30       1.68      2.89
+Wambiana Cattle Station Dry A             110       1.68      1.88
+             units  median_q10  median_r  frac_positive
+median_rate                                            
+(0, 5]          11        1.17      0.36           0.82
+(5, 15]         28        1.29      0.62           1.00
+(15, 40]        66        1.39      0.43           0.95
+(40, 120]       24        1.12      0.39           0.79
+  unit_definition  units  within_night_beta                                within_night_ci  season_beta  frac_units_positive  clips_with_estimate  mae_climatology  mae_presence  mae_audio  mae_blend
+0            band    135              0.009    [0.00549618451900432, 0.012725539866053515]        0.019                0.922                  479            2.095         2.101      1.529      1.430
+1     merged_band     29              0.010  [0.0035488309692237137, 0.015325246208075662]        0.019                1.000                  176            2.320         2.172      1.710      1.654
+2  carrier_region     19              0.009   [0.006240743217454202, 0.011490800000399577]        0.011                0.842                  478            2.246         2.947      2.369      1.974

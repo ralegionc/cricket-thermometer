@@ -1,0 +1,45 @@
+{
+  "n_clips": 2422,
+  "n_sites": 12,
+  "n_detections": 6396,
+  "n_units": 135,
+  "within_night": {
+    "n_pairs": 2423,
+    "n_nights": 143,
+    "n_units": 135,
+    "beta_temp_only": 0.011704418694136923,
+    "ci_temp_only": [
+      0.007005384248424557,
+      0.017032664615208803
+    ],
+    "beta_temp": 0.008740705271664746,
+    "ci_temp": [
+      0.00549618451900432,
+      0.012725539866053515
+    ],
+    "beta_hours": -0.007589828886528858,
+    "corr_dtemp_dhours": -0.11052884184600668
+  },
+  "across_season": {
+    "beta_pooled": 0.01875449767188271,
+    "ci_pooled": [
+      0.015366146806724545,
+      0.023052770196513264
+    ],
+    "q10_pooled": 1.2062845029198128,
+    "n_units_fit": 129,
+    "frac_units_positive": 0.9224806201550387,
+    "median_unit_beta": 0.023901269693585483
+  },
+  "thermometer": {
+    "n_clips_with_audio_estimate": 479,
+    "frac_clips_with_estimate": 0.1977704376548307,
+    "mae_climatology": 2.0952121168820748,
+    "mae_presence_only": 2.1007656355128432,
+    "mae_audio": 1.5294555659973665,
+    "mae_blend": 1.4300447176458218,
+    "blend_weight_audio": 0.6873192598391782,
+    "frac_audio_within_1c": 0.4551148225469729,
+    "corr_audio_anomaly": 0.7105943876112958
+  }
+}

@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+pyarrow
+soundfile
+requests
+statsmodels
+matplotlib
